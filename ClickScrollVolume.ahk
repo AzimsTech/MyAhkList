@@ -15,7 +15,7 @@ Menu,Tray,Tip,%TrayTip%
 Menu,Tray,Icon,%TrayIconFile%,%TrayIconNum%
 
 ~RButton Up::
-Sleep, 5 ; give the default context menu an oppotunity to show up
+Sleep, 10 ; give the default context menu an oppotunity to show up
   If A_PriorHotkey in WheelUp,WheelDown
      Send {Escape}
   return
