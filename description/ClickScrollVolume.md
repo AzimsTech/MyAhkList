@@ -1,9 +1,3 @@
----
-tags: [Import-a494]
-title: ClickScrollVolume
-created: '2019-01-31T18:08:01.061Z'
-modified: '2019-01-31T18:28:25.322Z'
----
 
 # About
 **_Click Scroll Volume_**  I created a hotkey using the Right Mouse button and Scroll Wheel to control the volume.
