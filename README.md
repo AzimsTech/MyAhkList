@@ -14,7 +14,7 @@ This is a collection of user scripts I use. They're tweaked a little bit to suit
 
 ## Summary
 
-#### <img src="https://raw.githubusercontent.com/AzimsTech/MyAhkList/master/icons/Icon_88.ico" width="16px" height="16px"> Scroll Wheel Volume <sup>( [description](https://github.com/Ede123/userscripts/blob/master/AMO_Editors.md) | [source](https://github.com/Ede123/userscripts/blob/master/AMO_Editors.user.js) | [install](https://raw.githubusercontent.com/Ede123/userscripts/master/AMO_Editors.user.js) )</sup>
+#### <img src="https://raw.githubusercontent.com/AzimsTech/MyAhkList/master/icons/Icon_88.ico" width="16px" height="16px" style="-webkit-filter: invert(1); filter: invert(1);"> Scroll Wheel Volume <sup>( [description](https://github.com/Ede123/userscripts/blob/master/AMO_Editors.md) | [source](https://github.com/Ede123/userscripts/blob/master/AMO_Editors.user.js) | [install](https://raw.githubusercontent.com/Ede123/userscripts/master/AMO_Editors.user.js) )</sup>
 
 Adjust volume by right-clicking + scroll wheel. 
 
