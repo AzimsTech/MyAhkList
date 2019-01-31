@@ -1,10 +1,3 @@
----
-layout: post
-published: true
-title: My Ultimate AutoHotKey Script Collection
-subtitle: 'AutoHotKey is cool, let''s use it!'
----
-Work in progress...
 
 AutoHotKey Scripts
 ============
