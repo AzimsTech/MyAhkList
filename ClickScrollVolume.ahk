@@ -1,4 +1,9 @@
-﻿; Concept: Implement RButton as a modifier for other hotkeys. SOURCE: https://autohotkey.com/board/topic/80118-issue-with-rbutton/ & https://autohotkey.com/board/topic/72662-disable-context-menu-combo-hotkey-with-rbutton/
+﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+
+; Concept: Implement RButton as a modifier for other hotkeys. SOURCE: https://autohotkey.com/board/topic/80118-issue-with-rbutton/ & https://autohotkey.com/board/topic/72662-disable-context-menu-combo-hotkey-with-rbutton/
 ; https://autohotkey.com/board/topic/40719-cannot-stop-right-click-menu-from-displaying/
 
 ; Requires:
@@ -15,7 +20,7 @@ Menu,Tray,Tip,%TrayTip%
 Menu,Tray,Icon,%TrayIconFile%,%TrayIconNum%
 
 ~RButton Up::
-Sleep, 10 ; give the default context menu an oppotunity to show up
+Sleep, 15 ; give the default context menu an oppotunity to show up
   If A_PriorHotkey in WheelUp,WheelDown
      Send {Escape}
   return
@@ -25,3 +30,4 @@ Sleep, 10 ; give the default context menu an oppotunity to show up
 
 WheelUp:: Send {Volume_up}
 WheelDown:: Send {Volume_down}
+Sleep, 1000 ; add delay before RButton is up
