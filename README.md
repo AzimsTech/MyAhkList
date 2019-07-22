@@ -11,5 +11,7 @@ This is a collection of user scripts I use. They're tweaked a little bit to suit
 
 Adjust volume by right-clicking + scroll wheel. 
 
+#### <img src="https://raw.githubusercontent.com/AzimsTech/MyAhkList/master/icons/AutoSpeedFan-icon.png" width="16px" height="16px" border="3"> Click Scroll Volume <sup>( [description](https://github.com/AzimsTech/MyAhkList/blob/master/description/AutoSpeedFan.md) | [source](https://github.com/AzimsTech/MyAhkList/blob/master/AutoSpeedFan.ahk) | [download](https://#) )</sup>
 
+Automatically set CPU Fan speed to 50% (Need to create a task from Task Scheduler)
 
