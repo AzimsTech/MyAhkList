@@ -19,15 +19,12 @@ TrayIconNum:="-3021" ; use headphones as tray icon (icon 2032 in DDORes)
 Menu,Tray,Tip,%TrayTip%
 Menu,Tray,Icon,%TrayIconFile%,%TrayIconNum%
 
-~RButton Up::
-Sleep, 15 ; give the default context menu an oppotunity to show up
-  If A_PriorHotkey in WheelUp,WheelDown
-     Send {Escape}
-  return
+RButton & WheelUp::
+	Send {Volume_up}
+return
+RButton::RButton
 
-
-#If GetKeyState("RButton", "P")  ; !!! works on ALL next hotkeys
-
-WheelUp:: Send {Volume_up}
-WheelDown:: Send {Volume_down}
-Sleep, 1000 ; add delay before RButton is up
+RButton & WheelDown::
+	Send {Volume_down}
+return
+LButton::LButton
